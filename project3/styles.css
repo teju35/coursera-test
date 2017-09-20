@@ -7,17 +7,19 @@
 h1 {
 	font-family: cursive, fantasy;
 	font-style: bold;
-	color: black;
+	color: white;
 }
 
 body {
-	background-image: url("background.jpg");
-	background-color: blue;
+	background-image: url("solo-travel.jpg");
+	background-size: 100%;
+	height: 200%;
+	background-repeat: no-repeat;
 
 }
 
 p {
-	padding: 10px;
+	padding: 5px;
 	margin: 1;
 }
 
@@ -25,15 +27,16 @@ p {
 	border: none;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 12px;
-	margin-bottom: 12px;
-	padding: 15px;
+	margin-top: 0;
+	margin-bottom:0;
+	padding: 5px;
 	font-style: italic;
-	font-family: Times ,sans-serif
+	font-family: Times ,sans-serif;
+	background-color: white;
 }
 
 section {
-	border:	1px solid black;
+	border:	1px solid white;
 	background-color: lightblue;
 	width: 100%;
 	height: auto;
@@ -44,7 +47,7 @@ section {
 	overflow: auto;
 }
 
-#chicken {
+/*#chicken {
 	border: 1px solid black;
 	text-align: center;
 	width: 30%;
@@ -111,22 +114,20 @@ section {
 #sushi-div {
   margin-bottom: 10px;
   margin-top: 10px;
-}
+}*/
 
 .navbar-brand {
   font-size: 3em;
   border: 10px;
-  color: orange;
 }
 
 #header-nav {
   border: 0;
-  background-color: purple;
-  color: orange;
+  background-color: white;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid white;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -134,23 +135,23 @@ section {
 }
 
 .nav-header {
-  background-color: red;
+  background-color:blue;
 }
 
 .nav-brand {
-  color: white;
-  font-size: 1.2em;
+  color: black;
+  font-size: 0.8em;
 }
 
 #nav-list {
-  color: white;
+  color: blue;
 }
 
 hr {
-  border-color: white;
+  border-color: lightblue;
 }
 
 .item {
-  color: white;
-  font-size: 1.2em;
+  color:black;
+  font-size: 1em;
 }

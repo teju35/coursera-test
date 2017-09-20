@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+	
+	<title>The Backpackers</title>
+</head>
+<body>
+     <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="backpacker.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img" alt="Logo image"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="backpacker.html">The Backpackers</a>
+          
+              <!-- <img src="logo.png" > -->
+              <!-- <section>
+			  <img class="mySlides" src="alone.jpg"
+			  style="width:100%">
+			  <img class="mySlides" src="scenery.jpg"
+			  style="width:100%">
+			  <img class="mySlides" src="solo-travel.jpg"
+			  style="width:100%">
+			</section> -->
+            
+          </div>
+
+          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li id="navHomeButton" class="visible-xs active">
+              <a href="backpacker.html">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
+            <li id="navMenuButton">
+              <a href="#" onclick="$dc.loadMenuCategories();">
+                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Hotels</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-plane"></span><br class="hidden-xs"> Flights</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-traveler"></span><br class="hidden-xs"> Tours</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+            </li>
+          
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+ 
+	<script src="jquery-2.1.4.min.js"></script>
+	<script src="bootstrap.min.js"></script>
+	<script src="ajax-utils.js"></script>
+  	<script src="bootstrap.js"></script>
+</body>
+</html>
